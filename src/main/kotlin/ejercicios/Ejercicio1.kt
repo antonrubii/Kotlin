@@ -1,13 +1,17 @@
 package org.example.ejercicios
-        fun main() {
-            println("Precio del Articulo: ")
-            val precio = readLine()!!.toDouble()
+fun main() {
+    //Se debe desarrollar un programa que pida el ingreso del precio de un
+    //artículo y la cantidad que lleva el cliente. Mostrar lo que debe abonar el
+    //comprador
 
-            println("Introduce la cantidad de articulos: ")
-            val cantidad = readLine()!!.toInt()
+    println("Precio del Articulo: ")
+    val precio = readLine()!!.toDouble()
 
-            val total = precio * cantidad
+    println("Introduce la cantidad de articulos: ")
+    val cantidad = readLine()!!.toInt()
 
-            println("El total a pagar es: $total")
-        }
+    val total = precio * cantidad
+
+    println("El total a pagar es: $total")
+}
 
